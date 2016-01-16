@@ -1,0 +1,39 @@
+{
+  "name": "condor",
+  "version": "1.0.0",
+  "description": "An HTTPS proxy based on CONNECT-tunnel with host-filtering capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape test/**/*.js | ./node_modules/.bin/tap-spec"
+  },
+  "author": "Michele Pangrazzi <xmikex83@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mpangrazzi/condor.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "request": "^2.67.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2"
+  },
+  "keywords": [
+    "https",
+    "ssl",
+    "tls",
+    "proxy",
+    "url-filtering",
+    "host-filtering",
+    "url",
+    "filtering",
+    "host",
+    "connect",
+    "tunnel"
+  ],
+  "jshintConfig": {
+    "esnext": true
+  }
+}
