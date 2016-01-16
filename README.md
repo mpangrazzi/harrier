@@ -1,6 +1,8 @@
 Harrier
 ======
 
+[![Build Status](https://travis-ci.org/mpangrazzi/harrier.svg?branch=master)](https://travis-ci.org/mpangrazzi/cidr-grep)
+
 Harrier is a simple HTTPS proxy based on [CONNECT tunneling technique](https://en.wikipedia.org/wiki/HTTP_tunnel) with **host-based filtering capabilities**.
 
 
