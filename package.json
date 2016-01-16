@@ -1,5 +1,5 @@
 {
-  "name": "condor",
+  "name": "harrier",
   "version": "1.0.0",
   "description": "An HTTPS proxy based on CONNECT-tunnel with host-filtering capabilities",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "Michele Pangrazzi <xmikex83@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mpangrazzi/condor.git"
+    "url": "git://github.com/mpangrazzi/harrier.git"
   },
   "license": "MIT",
   "dependencies": {
